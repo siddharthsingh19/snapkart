@@ -40,7 +40,7 @@ const SingleProduct = () => {
                     <div className="left">
                         <img
                             src={
-                                process.env.REACT_APP_DEV_URL +
+                                // process.env.REACT_APP_DEV_URL +
                                 product.img.data[0].attributes.url
                             }
                             alt=""
